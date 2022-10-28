@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Stocks Quiz</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row p-5 justify-content-center">
+      <div class="col-md-7">
+  <h1>Stocks Quiz</h1>
+  <p>Test your knowledge about stocks! Find the answers <a href="https://en.wikipedia.org/wiki/Stock">here.</a></p>
+
+        <form>
+<!-- form start -->
+
+<div class="mb-3">
+  <label for="form" class="form-label">What makes up "stock" in a company? (used interchangeably with the word "stocks")</label>
+  <input type="text" name="shares" class="form-control" id="form">
+</div>
+
+
+<div class="mb-3">
+  <label for="form2" class="form-label">Where can stocks be sold publicly?</label>
+  <input type="text" name="stockExchange" class="form-control" id="form2">
+</div>
+
+
+<div class="mb-3"> <!-- can add size-->
+  <label for="form3" class="form-label">Why would someone want to own stock in a company?</label>
+  <textarea name="ans3" class="form-control" id="form3"></textarea>
+</div>
+
+
+<div class="mb-3">
+  <label>Which of the following is an official type of stock?</label>
+
+    <label class="form-check">
+      <input class="form-check-input" type="radio" name="ans4" value="a">Dividend stock</label>
+
+    <label class="form-check">
+      <input class="form-check-input" type="radio" name="ans4" value="b">Preferred stock</label>
+
+    <label class="form-check">
+      <input class="form-check-input" type="radio" name="ans4" value="c">Class 2 stock</label>
+
+    <label class="form-check">
+      <input class="form-check-input" type="radio" name="ans4" value="d">Penny stock</label>
+</div>
+
+
+<div class="mb-3">
+  <label>Which of the following are stock derivatives?</label>
+    <label class="form-check">
+      <input class="form-check-input" type="checkbox" name="ans5" value="a">Call option</label>
+
+    <label class="form-check">
+      <input class="form-check-input" type="checkbox" name="ans5" value="b">Weeklies</label>
+
+    <label class="form-check">
+      <input class="form-check-input" type="checkbox" name="ans5" value="c">Put option</label>
+
+    <label class="form-check">
+      <input class="form-check-input" type="checkbox" name="ans5" value="d">Futures</label>
+</div>
+
+
+<div class="mb-3">
+  <label for="form6" class="form-label">What company was the earliest recognized joint-stock company in modern times?</label>
+    <select class="form-select" name="ans6" id="form6">
+      <option selected>Choose...</option>
+      <option value="a">Standard Oil Company</option>
+      <option value="b">The Royal Mint</option>
+      <option value="c">Towle Silversmiths</option>
+      <option value="d">the Bank of New York</option>
+      <option value="e">East India Company</option>
+      <option value="f">Armstrong & Barnewell</option>
+    </select>
+</div>
+
+<div><input type="submit" value="Submit"> <input type="reset" value="Start Over"></div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
